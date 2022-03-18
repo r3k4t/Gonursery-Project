@@ -1,0 +1,95 @@
+/* Login CSS  */
+/* Created by Rahat Khan Tusar */
+
+
+.two-form{
+    border:1px solid #f1f1f1;
+    padding:14px 20px;
+    margin: 8px 0;
+    
+
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-flex;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  #btn {
+    background-color: #7FAD39;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  #btn:hover {
+    opacity: 0.8;
+  }
+
+  #checked{
+    background-color:#7FAD39;
+  }
+  
+  
+  /* .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  } */
+
+  
+  /* .container {
+    padding: 16px;
+  } */
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+
+
+  .two-form i{
+    position:absolute;
+    font-size:24px;
+    color:grey;
+    margin:150px 150px;
+  }
+
+  .two-form .fa-eye-slash{
+   margin-top:0px;
+  }
+
+#lost-password-text-color{
+  color:#7FAD39;
+}
+
+.site-btn2{
+
+  font-size: 14px;
+	color: #ffffff;
+	font-weight: 800;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 13px 30px 12px;
+	background: #7fad39;
+	border: none;
+}
+
